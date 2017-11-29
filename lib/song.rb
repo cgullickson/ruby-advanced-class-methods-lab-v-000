@@ -49,7 +49,6 @@ class Song
     name.chomp(".mp3").split(" - ")
     artist_name = name[0]
     song = name[1]
-    song.save
   end
 
 
