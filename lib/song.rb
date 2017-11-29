@@ -13,7 +13,7 @@ class Song
   def self.create
     song = self.new
     @@all << self
-    song.object_id
+    song
   end
 
 end
